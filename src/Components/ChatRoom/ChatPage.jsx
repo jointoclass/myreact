@@ -85,7 +85,8 @@ const colors = [
   "#FF9800",
   "#39bbb0",
 ];
-function ChatPage({ username, message, stompClientRef }) {
+
+ ChatPage({ username, message, stompClientRef }) {
   const [value, setValue] = useState("");
   const [messageList, setMessageList] = useState([]);
 
